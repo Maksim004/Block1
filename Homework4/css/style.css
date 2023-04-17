@@ -1,0 +1,128 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pricing{
+    background-color: #F5F5F5;
+    padding: 10px 0px 50px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.title{
+    width: 1170px;
+    text-transform: uppercase;
+    padding: 54px 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.line{
+    width: 170px;
+    border: 1px solid #EC7979;
+    margin: 0 auto 38px;
+}
+
+.title2{
+    width: 1170px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.pricing-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 59px;
+}
+
+.pricing-content__elen{
+    width: 370px;
+    height: 510px;
+    /* text-shadow: #c0c0c0; */
+}
+
+.pricing-content__elen-active{
+    width: 370px;
+    margin-top: 20px;
+}
+
+.spis{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 13.5px 0;
+    color: #86878B;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.spis-basic{
+   width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    padding: 12.5px 0;
+    background-color: #333333; 
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.spis-prise{
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 28px 0;
+    background-color: #333333;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.spis-free{
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 13.5px 0;
+    background-color: #333333;
+    border-bottom: 2px solid white;
+    color: #86878B;
+}
+
